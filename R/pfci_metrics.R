@@ -43,8 +43,6 @@ pfci_metrics <- function(sim, fit, compute_marks = FALSE) {
     Recall = unname(fm["Recall"]),
     TP = unname(fm["TP"]), FP = unname(fm["FP"]), FN = unname(fm["FN"]), TN = unname(fm["TN"]),
     Time = if (!is.null(fit$time$total)) as.numeric(fit$time$total) else NA_real_,
-    time_glasso = if (!is.null(fit$time$glasso)) as.numeric(fit$time$glasso) else NA_real_,
-    time_fci = if (!is.null(fit$time$fci)) as.numeric(fit$time$fci) else NA_real_,
     rho = if (!is.null(fit$rho)) as.numeric(fit$rho) else NA_real_
   )
 
