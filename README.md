@@ -26,3 +26,7 @@ fit <- pfci_fit(sim$X)
 met <- pfci_metrics(sim, fit)
 met
 ```
+# Reference
+Penalized FCI for Causal Structure Learning in a Sparse DAG for Biomarker Discovery in Parkinson's Disease
+S Pal, D Ghosh, S Yang
+arXiv preprint arXiv:2507.00173
