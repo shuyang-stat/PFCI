@@ -22,11 +22,11 @@ Imports:
     graphics,
     glasso,
     pcalg,
-    graph,
     igraph
 Suggests:
     testthat,
     knitr,
+    graph,
     rmarkdown,
     Rgraphviz,
     RBGL
