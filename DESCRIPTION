@@ -23,11 +23,11 @@ Imports:
     glasso,
     pcalg,
     graph,
-    igraph,
-    RBGL
+    igraph
 Suggests:
     testthat,
     knitr,
     rmarkdown,
-    Rgraphviz
+    Rgraphviz,
+    RBGL
 VignetteBuilder: knitr
