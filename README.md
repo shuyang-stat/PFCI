@@ -15,7 +15,7 @@ This enables computationally efficient structure learning while preserving theor
 
 Install the development version from GitHub:
 
-```r
+```{r eval=TRUE}
 # install.packages("devtools")
 install.packages("BiocManager")
 BiocManager::install(c("graph", "RBGL", "ggm", "pcalg"))
